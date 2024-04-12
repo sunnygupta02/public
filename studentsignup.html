@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration</title>
+    <link rel="stylesheet" href="studentsignup.css">
+    
+  
+</head>
+<body> 
+    <header>
+
+        <a href="#home" class="logo"><img src="tempImage5d5Mx4.ico" alt=""></a>
+        
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">home</a></li>
+                <li><a href="aboutus.html">about us</a></li>
+                
+    
+                
+               
+               
+                <li><a href="studentsignup.html">Signup for student</a></li>
+                <li><a href="teacherlogin.html"> SignUp For teacher</a></li>
+            </ul>
+        </nav>
+        
+        <div class="fas fa-bars"></div>
+        
+        </header>
+    <section class="contact">
+    <div class="container">
+        <h1>Student Registration</h1>
+        <div class="contact-group">
+            <div class="contact-form">
+                <h1>Student Registration</h1>
+                <form action="/student/signup" method="POST">
+                    <label for="studentname">Student Name:</label><br>
+                    <input type="text" id="studentname" name="studentname" required><br><br>
+                    <label for="email">Email:</label><br>
+                    <input type="text" id="email" name="email" required><br><br>
+            
+                    <label for="password">Password:</label><br>
+                    <input type="password" id="password" name="password" required><br><br>
+                    
+                    <input type="submit" value="signup">
+            
+                    <h3>if already signed up </h3><a href="/student/login">login</a>
+                </div>
+
+               
+            </form>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+        <!-- <label for="course">Course:</label><br>
+        <input type="text" id="course" name="course" required><br><br> -->
+
+        <!-- <label for="year">Year:</label><br>
+        <select id="year" name="year" required>
+            <option value="">Select Year</option>
+            <option value="1">1st Year</option>
+            <option value="2">2nd Year</option>
+            <option value="3">3rd Year</option>
+            <option value="4">4th Year</option>
+        </select><br><br> -->
+        
+</body>
+</html>
